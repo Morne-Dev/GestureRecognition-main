@@ -99,7 +99,6 @@ function App() {
 
   return (
     <div className="App">
-      <h3 className="Details">Gesture Recognition Demo: thumbs up and peace </h3>
       <header className="App-header">
         <Webcam
           ref={webcamRef}
@@ -151,6 +150,7 @@ function App() {
 
         {/* NEW STUFF */}
       </header>
+      <h3>helloooo</h3>
     </div>
   );
 }
