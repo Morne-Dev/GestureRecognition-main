@@ -99,7 +99,7 @@ function App() {
 
   return (
     <div className="App">
-      <h3 className="">Gesture Recognition Demo: thumbs up and peace </h3>
+      <h3 className="Details">Gesture Recognition Demo: thumbs up and peace </h3>
       <header className="App-header">
         <Webcam
           ref={webcamRef}
